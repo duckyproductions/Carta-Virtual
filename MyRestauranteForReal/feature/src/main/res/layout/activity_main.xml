@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.b09s311est.myrestauranteforreal.app.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <Button
+            android:id="@+id/ButtonConsultarUbi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="VerMapa"
+
+
+            android:text="@string/consultar_ubicacion" />
+
+        <Button
+            android:id="@+id/ButtonReserva"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="VerMapaMesas"
+            android:text="Reservar Mesa" />
+
+        <Button
+            android:id="@+id/ButtonMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="VerMenu"
+            android:text="Consultar Menú" />
+
+        <Button
+            android:id="@+id/ButtonPedir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pedir Orden" />
+
+        <Button
+            android:id="@+id/ButtonPagar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="Pagar"
+            android:text="Pagar" />
+
+        <Button
+            android:id="@+id/ButtonRate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Puntuar Restaurante" />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
