@@ -28,7 +28,12 @@
             android:label="@string/title_activity_maps" />
         <activity android:name=".MenuActivity" />
         <activity android:name=".PayActivity" />
-        <activity android:name=".PlatosActivity"></activity>
+        <activity android:name=".PlatosActivity" />
+        <activity android:name=".EntradasAcitiviy" />
+        <activity android:name=".BebidasActivity" />
+        <activity android:name=".PlatosFuertesActivity" />
+        <activity android:name=".PostresActivity" />
+        <activity android:name=".MenuDelDia"></activity>
     </application>
 
 </manifest>
